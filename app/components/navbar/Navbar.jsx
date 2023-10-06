@@ -6,7 +6,7 @@ const Navbar = () => {
     <div className=" max-w-4xl  mx-auto flex justify-between">
       <Link href={"/"}>Logo</Link>
       <div className="flex gap-2">
-        <Link href={"/new"}>create Post</Link>
+        <Link href={"/new"}>createPost</Link>
         <Link href={"/posts"}>Posts</Link>
       </div>
     </div>
